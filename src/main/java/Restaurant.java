@@ -71,5 +71,9 @@ public class Restaurant {
     public String getName() {
         return name;
     }
+	
+	public float orderValue() {
+		// Method to perform Order Total
+	}	
 
 }
