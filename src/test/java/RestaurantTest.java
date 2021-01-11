@@ -40,7 +40,7 @@ class RestaurantTest {
         //WRITE UNIT TEST CASE HERE
         Restaurant restaurant = Mockito.mock(Restaurant.class);
 
-        LocalTime currenttime = LocalTime.parse("06:00:00");
+        LocalTime currenttime = LocalTime.parse("04:00:00");
         Mockito.when(restaurant.getCurrentTime()).thenReturn(currenttime);
 
         assertTrue(restaurant.isRestaurantOpen());

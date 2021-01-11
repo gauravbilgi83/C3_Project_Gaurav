@@ -38,7 +38,7 @@ class RestaurantServiceTest {
         Restaurant newlyCreatedRestaurant = service.addRestaurant("Amelie's cafe", "Chennai", openingTime,closingTime);
 
         List<Restaurant> availableRestaurants = service.getRestaurants();
-        assertEquals("ABC Restaurant",service.getRestaurants());
+        assertEquals("XYZ Restaurant",service.getRestaurants());
     }
     //<<<<<<<<<<<<<<<<<<<<SEARCHING>>>>>>>>>>>>>>>>>>>>>>>>>>
 
